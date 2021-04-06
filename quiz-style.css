@@ -384,3 +384,15 @@ footer .next_btn:hover{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+.autora{
+    text-align: center;
+    color: #222;
+    font-size: 11px;
+}
+
+.social-media-autora{
+    font-size: 11px;
+    color: #222;
+    text-decoration: none;
+}
