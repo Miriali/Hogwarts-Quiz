@@ -200,22 +200,10 @@ function startTimer(time){
     }
 }
 
-function startTimerLine(time){
-    counterLine = setInterval(timer, 29);
-    function timer(){
-        time += 1;
-        timeLine.style.width = time + 'px';
-        
-        if(time > 549){
-            clearInterval(counterLine);
-        }
-    }
-}
-
 //Contador de preguntas
 function queCounter(index) {
     const bottom_ques_counter = quiz_box.querySelector('.total_que');
-    let totalQuesCountTag = '<span><p>'+ index +'</p>of<p>'+ questions.length +'</p>Questions</span>'
+    let totalQuesCountTag = '<span><p>'+ index +'</p>de<p>'+ questions.length +'</p>preguntas</span>'
 
     bottom_ques_counter.innerHTML = totalQuesCountTag;
 }
