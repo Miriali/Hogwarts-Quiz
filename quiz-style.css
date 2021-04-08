@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background: url('./img/Background.jpg') center/cover;
+    background: url('./img/Background.jpg') center/cover no-repeat;
 }
 
 .start_btn,
@@ -395,4 +395,312 @@ footer .next_btn:hover{
     font-size: 11px;
     color: #222;
     text-decoration: none;
+}
+
+/*Responsive Media Query*/
+@media (max-width: 800px){
+.start_btn button {
+    padding: 13px 25px;
+}
+
+.info_box {
+    width: 600px;
+}
+
+.info_box .info_title{
+    padding: 0 30px;
+    font-size: 19px;
+}
+
+.info_box .info_list .info {
+    font-size: 16px;
+}
+
+.info_box .buttons {
+    padding: 0 30px;
+}
+
+.info_box .buttons button {
+    margin: 0 8px;
+    width: 95px;
+    font-size: 15px;
+}
+
+.quiz_box header .title {
+    font-size: 19px;
+}
+
+.quiz_box section .que_text {
+    font-size: 21px;
+}
+
+section .option_list .option {
+    font-size: 16px;
+}
+
+footer .next_btn {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.result_box {
+    background: #fff;
+    width: 450px;
+    padding: 20px 25px;
+}
+
+.result_box .icon img{
+    width: 200px;
+}
+
+.result_box .complete_text{
+    font-size: 20px;
+}
+
+.result_box .score_text span {
+    margin: 8px 0;
+    font-size: 17px;
+}
+
+.result_box .buttons {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.result_box .buttons button {
+    margin: 0 10px;
+    height: 45px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+}
+
+@media (max-width: 520px){
+body {
+    height: 692px;
+}
+
+.start_btn button {
+    padding: 12px 24px;
+    font-size: 23px;
+}
+
+.info_box {
+    width: 390px;
+}
+
+.info_box .info_title{
+    padding: 0 30px;
+    font-size: 17px;
+}
+
+.info_box .info_list .info {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.info_box .buttons {
+    padding: 0 20px;
+}
+
+.info_box .buttons button {
+    margin: 0 8px;
+    width: 90px;
+    font-size: 14px;
+}
+
+.quiz_box {
+    width: 380px;
+}
+
+.quiz_box header {
+    padding: 0 20px;
+}
+
+.quiz_box header .title {
+    font-size: 17px;
+    text-align: left;
+}
+
+.quiz_box header .timer {
+    font-size: 15px;
+    width: 140px;
+    padding: 0 7px;
+}
+
+.quiz_box header .timer .time_text {
+    font-size: 13px;
+}
+
+.quiz_box header .timer .timer_sec {
+    font-size: 14px;
+    width: 40px;
+}
+
+.quiz_box section .que_text {
+    font-size: 17px;
+    text-align: justify;
+}
+
+section .option_list .option {
+    font-size: 14px;
+}
+
+footer .total_que span p{
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+footer .next_btn {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.result_box {
+    background: #fff;
+    width: 380px;
+    padding: 20px 25px;
+}
+
+.result_box .icon img{
+    width: 150px;
+    height: 150px;
+}
+
+.result_box .complete_text{
+    font-size: 18px;
+}
+
+.result_box .score_text span {
+    margin: 8px 0;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.result_box .buttons button {
+    margin: 0 10px;
+    height: 40px;
+    padding: 0 10px;
+    font-size: 15px;
+}
+}
+
+@media (max-width: 375px){
+.start_btn button {
+    padding: 11px 22px;
+    font-size: 20px;
+}
+    
+.info_box {
+    width: 300px;
+}
+    
+.info_box .info_title{
+    padding: 0 20px;
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.info_box .info_list {
+    padding: 15px 28px;
+}
+    
+.info_box .info_list .info {
+    font-size: 14px;
+    text-align: justify;
+}
+    
+.info_box .buttons {
+    padding: 0 15px;
+}
+    
+.info_box .buttons button {
+    margin: 0 8px;
+    width: 80px;
+    font-size: 13px;
+}
+
+.quiz_box {
+    width: 300px;
+}
+    
+.quiz_box header {
+    padding: 0 12px;
+}
+    
+.quiz_box header .title {
+    font-size: 15px;
+    text-align: left;
+}
+    
+.quiz_box header .timer {
+    font-size: 10px;
+    width: 98px;
+    padding: 0 7px;
+}
+    
+.quiz_box header .timer .time_text {
+    font-size: 10px;
+}
+    
+.quiz_box header .timer .timer_sec {
+    font-size: 13px;
+    width: 40px;
+}
+    
+.quiz_box section .que_text {
+    font-size: 15px;
+    text-align: justify;
+}
+    
+section .option_list .option {
+    font-size: 13px;
+}
+    
+footer .total_que span{
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+footer .total_que span p{
+    font-size: 13px;
+    padding: 0 5px;
+}
+    
+footer .next_btn {
+    height: 40px;
+    padding: 0 8px;
+    font-size: 13px;
+}
+    
+.result_box {
+    width: 300px;
+    padding: 20px 15px;
+}
+    
+.result_box .icon img{
+    width: 140px;
+    height: 140px;
+}
+    
+.result_box .complete_text{
+    font-size: 18px;
+}
+    
+.result_box .score_text span {
+    margin: 8px 4px;
+    font-size: 14px;
+    line-height: 30px;
+}
+    
+.result_box .buttons button {
+    margin: 0 10px;
+    height: 40px;
+    padding: 0 8px;
+    font-size: 13px;
+}
 }
